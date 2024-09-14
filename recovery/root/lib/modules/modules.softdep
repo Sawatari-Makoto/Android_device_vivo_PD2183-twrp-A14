@@ -1,0 +1,7 @@
+# Soft dependencies extracted from modules themselves.
+softdep mtu3 pre: xhci-mtk-hcd
+softdep slbc_mt6983 pre: tinysys-scmi.ko
+softdep sensors_class pre: acpm-mfd-bus i2c-exynos5
+softdep xhci_mtk_hcd post: mtu3
+softdep vr pre: ufs-mediatek-mod ufs-mediatek mtk-mmc
+softdep mt6983_dcm pre:mtk_dcm.ko
