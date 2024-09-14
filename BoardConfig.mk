@@ -93,6 +93,7 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := zh_CN
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
+TW_MAX_BRIGHTNESS := 2047
 TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/battery/power_supply/batteryss
 TW_BRIGHTNESS_PATH := /sys/devices/platform/soc/soc:mtk_leds/leds/lcd_backlight/brightness
 
